@@ -12,7 +12,7 @@ namespace Stocks
 	{
 		[PrimaryKey, AutoIncrement]
 		public int Id { get; set; }
-		[MaxLength(8)]
+		[MaxLength(10)]
 		public string Symbol { get; set; }
 
 		public override string ToString ()
